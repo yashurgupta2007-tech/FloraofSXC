@@ -406,7 +406,7 @@ ${galleryHTML}
 
         if (infoButton) {
             infoButton.addEventListener("click", () => {
-                FloraSpeech.speakFields(infoFields);
+                FloraSpeech.speakFields(infoFields, 'Plant Information');
             });
         }
         document.querySelectorAll("[data-speech-key]").forEach(button => {
@@ -421,7 +421,7 @@ ${galleryHTML}
         const listenAllButton = document.querySelector("[data-speech-all]");
         if (listenAllButton) {
             listenAllButton.addEventListener("click", () => {
-                FloraSpeech.speakFields(fields);
+                FloraSpeech.speakFields(fields, 'Entire Plant Profile');
             });
         }
     }
