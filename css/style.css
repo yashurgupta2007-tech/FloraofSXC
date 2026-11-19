@@ -2419,3 +2419,10 @@ body[data-page="tree-detail"] #tree-content {
     font-size: 12px;
   }
 }
+
+
+@media (max-width: 768px) {
+  #speech-pause {
+    display: none !important;
+  }
+}
